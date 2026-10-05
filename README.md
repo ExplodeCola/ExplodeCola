@@ -1,86 +1,152 @@
 <div align="center">
-  <img src="assets/steam/steam-header.jpg" width="100%" alt="ExplodeCola — Steam profile">
-</div>
 
-<!-- ============================ FAVORITE GAME ============================ -->
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/steam/bar-favorite-light.png">
-  <img src="assets/steam/bar-favorite.png" width="100%" alt="Favorite Game">
-</picture>
+# Border Components
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/steam/panel-favorite-light.png">
-  <img src="assets/steam/panel-favorite.png" width="100%" alt="DARK SOULS III — 440 hours played">
-</picture>
+**一套可复用的边框 UI 组件 · 12 种 · 纯 SVG · 明暗双版**
 
-<!-- ========================= ACHIEVEMENT SHOWCASE ======================== -->
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/steam/bar-achievements-light.png">
-  <img src="assets/steam/bar-achievements.png" width="100%" alt="Achievement Showcase">
-</picture>
+每个组件都是独立自包含的 SVG：自带承载面、边框与骨架内容，拖进任何项目就能用。
 
-<div align="center">
-  <img src="assets/steam/award-wholesome.png" width="64" alt="Wholesome award">
-  <br>
-  <sub>This user's profile has been given the <b>Wholesome</b> award</sub>
-</div>
-
-<!-- ============================== GITHUB STATS =========================== -->
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/steam/bar-stats-light.png">
-  <img src="assets/steam/bar-stats.png" width="100%" alt="GitHub Stats">
-</picture>
-
-<div align="center">
-  <img width="100%" src="https://ghchart.rshah.org/66c0f4/ExplodeCola" alt="contribution chart">
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=ExplodeCola&background=1b2838&border=2a475e&stroke=2a475e&ring=66c0f4&fire=66c0f4&currStreakNum=c6d4df&sideNums=c6d4df&currStreakLabel=66c0f4&sideLabels=66c0f4&dates=8f98a0" alt="streak">
-</div>
-
-<!-- ================================ BADGES =============================== -->
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/steam/bar-badges-light.png">
-  <img src="assets/steam/bar-badges.png" width="100%" alt="Badges">
-</picture>
-
-<!-- ▼▼ 删掉你不用的，或加你自己的 ▼▼ -->
-<div align="center">
-  <img src="https://img.shields.io/badge/JavaScript-c6d4df?style=for-the-badge&logo=javascript&logoColor=1b2838&labelColor=1b2838" alt="JavaScript">
-  <img src="https://img.shields.io/badge/TypeScript-66c0f4?style=for-the-badge&logo=typescript&logoColor=1b2838&labelColor=1b2838" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Python-66c0f4?style=for-the-badge&logo=python&logoColor=1b2838&labelColor=1b2838" alt="Python">
-  <img src="https://img.shields.io/badge/Node.js-c6d4df?style=for-the-badge&logo=nodedotjs&logoColor=1b2838&labelColor=1b2838" alt="Node.js">
-  <img src="https://img.shields.io/badge/React-66c0f4?style=for-the-badge&logo=react&logoColor=1b2838&labelColor=1b2838" alt="React">
-  <img src="https://img.shields.io/badge/Rust-c6d4df?style=for-the-badge&logo=rust&logoColor=1b2838&labelColor=1b2838" alt="Rust">
-  <img src="https://img.shields.io/badge/Docker-66c0f4?style=for-the-badge&logo=docker&logoColor=1b2838&labelColor=1b2838" alt="Docker">
-  <img src="https://img.shields.io/badge/Git-c6d4df?style=for-the-badge&logo=git&logoColor=1b2838&labelColor=1b2838" alt="Git">
-</div>
-
-<!-- ================================ LINKS ================================ -->
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/steam/bar-links-light.png">
-  <img src="assets/steam/bar-links.png" width="100%" alt="Links">
-</picture>
-
-<!-- ▼▼ 换成你自己的链接 ▼▼ -->
-<div align="center">
-  <a href="https://github.com/ExplodeCola"><picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/steam/btn-github-light.png">
-    <img src="assets/steam/btn-github.png" height="46" alt="GitHub">
-  </picture></a>
-  <a href="https://steamcommunity.com/id/ExplodeCola"><picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/steam/btn-steam-light.png">
-    <img src="assets/steam/btn-steam.png" height="46" alt="Steam">
-  </picture></a>
-  <a href="mailto:you@example.com"><picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/steam/btn-email-light.png">
-    <img src="assets/steam/btn-email.png" height="46" alt="Email">
-  </picture></a>
 </div>
 
 <br>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ExplodeCola&style=for-the-badge&color=66c0f4&labelColor=1b2838&label=PROFILE+VIEWS" alt="visitors">
-</div>
+<table>
+<tr>
+<td width="50%" align="center">
+<picture>
+<source media="(prefers-color-scheme: light)" srcset="assets/borders/hairline-light.svg">
+<img src="assets/borders/hairline.svg" width="100%" alt="Hairline border component">
+</picture>
+<br><sub><b>HAIRLINE</b> &nbsp;·&nbsp; 1.25px 单线</sub>
+</td>
+<td width="50%" align="center">
+<picture>
+<source media="(prefers-color-scheme: light)" srcset="assets/borders/double-light.svg">
+<img src="assets/borders/double.svg" width="100%" alt="Double border component">
+</picture>
+<br><sub><b>DOUBLE</b> &nbsp;·&nbsp; 双层描边 1.5 / 1px</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<picture>
+<source media="(prefers-color-scheme: light)" srcset="assets/borders/rounded-light.svg">
+<img src="assets/borders/rounded.svg" width="100%" alt="Rounded border component">
+</picture>
+<br><sub><b>ROUNDED</b> &nbsp;·&nbsp; 圆角 20px</sub>
+</td>
+<td width="50%" align="center">
+<picture>
+<source media="(prefers-color-scheme: light)" srcset="assets/borders/capsule-light.svg">
+<img src="assets/borders/capsule.svg" width="100%" alt="Capsule border component">
+</picture>
+<br><sub><b>CAPSULE</b> &nbsp;·&nbsp; 全圆角 r = h/2</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<picture>
+<source media="(prefers-color-scheme: light)" srcset="assets/borders/chamfer-light.svg">
+<img src="assets/borders/chamfer.svg" width="100%" alt="Chamfer border component">
+</picture>
+<br><sub><b>CHAMFER</b> &nbsp;·&nbsp; 斜切角 20px</sub>
+</td>
+<td width="50%" align="center">
+<picture>
+<source media="(prefers-color-scheme: light)" srcset="assets/borders/notched-light.svg">
+<img src="assets/borders/notched.svg" width="100%" alt="Notched border component">
+</picture>
+<br><sub><b>NOTCHED</b> &nbsp;·&nbsp; 直角切角 16px</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<picture>
+<source media="(prefers-color-scheme: light)" srcset="assets/borders/brackets-light.svg">
+<img src="assets/borders/brackets.svg" width="100%" alt="Bracket corners border component">
+</picture>
+<br><sub><b>BRACKETS</b> &nbsp;·&nbsp; 仅四角 20px</sub>
+</td>
+<td width="50%" align="center">
+<picture>
+<source media="(prefers-color-scheme: light)" srcset="assets/borders/dashed-light.svg">
+<img src="assets/borders/dashed.svg" width="100%" alt="Dashed border component">
+</picture>
+<br><sub><b>DASHED</b> &nbsp;·&nbsp; 虚线 14 / 9</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<picture>
+<source media="(prefers-color-scheme: light)" srcset="assets/borders/neon-light.svg">
+<img src="assets/borders/neon.svg" width="100%" alt="Neon glow border component">
+</picture>
+<br><sub><b>NEON</b> &nbsp;·&nbsp; 发光 σ=4 + 实线 2.5px</sub>
+</td>
+<td width="50%" align="center">
+<picture>
+<source media="(prefers-color-scheme: light)" srcset="assets/borders/gradient-light.svg">
+<img src="assets/borders/gradient.svg" width="100%" alt="Gradient border component">
+</picture>
+<br><sub><b>GRADIENT</b> &nbsp;·&nbsp; 渐变描边 3px</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<picture>
+<source media="(prefers-color-scheme: light)" srcset="assets/borders/inset-light.svg">
+<img src="assets/borders/inset.svg" width="100%" alt="Inset border component">
+</picture>
+<br><sub><b>INSET</b> &nbsp;·&nbsp; 三层内嵌</sub>
+</td>
+<td width="50%" align="center">
+<picture>
+<source media="(prefers-color-scheme: light)" srcset="assets/borders/ticks-light.svg">
+<img src="assets/borders/ticks.svg" width="100%" alt="Tick rule border component">
+</picture>
+<br><sub><b>TICKS</b> &nbsp;·&nbsp; 刻度边 18px 步进</sub>
+</td>
+</tr>
+</table>
+
+<br>
+
+## 复用
+
+**直接取用** —— 每个组件都是普通 SVG，复制 `assets/borders/` 里的文件即可：
+
+```html
+<img src="hairline.svg" width="440" alt="">
+```
+
+或内联进项目，用 CSS 或 `currentColor` 接管颜色：
+
+```html
+<svg viewBox="0 0 440 150" width="440">
+  <rect x="14" y="14" width="412" height="122" rx="4"
+        fill="none" stroke="currentColor" stroke-width="1.25"/>
+</svg>
+```
+
+**改参数重生成** —— 全部由 `generate-borders.py` 生成，尺寸、颜色、角样式都是脚本里的常量：
+
+| 参数 | 位置 | 当前值 |
+|---|---|---|
+| 画布尺寸 | `W, H` | `440 × 150` |
+| 安全边距 | `PAD` | `10`（防止描边被裁切） |
+| 强调色 | `THEMES[*]["accent"]` | 暗 `#22d3ee` / 亮 `#0e7490` |
+| 次强调色 | `THEMES[*]["accent2"]` | 暗 `#a78bfa` / 亮 `#6d28d9` |
+| 承载面 | `THEMES[*]["surface"]` | 暗 `#0d1117` / 亮 `#ffffff` |
+| 切角深度 | `_corner_path(..., d, ...)` | 斜切 20 / 直角切 16 |
+
+颜色跟着 `THEMES` 走，改一处两组变体一起变。
+
+## 两个实现细节
+
+**明暗双版**——Steam 式的暗色组件放到 GitHub 浅色主题的白底上会显得突兀，所以每个组件都出 `x.svg` 和 `x-light.svg` 两份，README 用 `<picture>` + `prefers-color-scheme` 自动切换。
+
+**SVG 里不放文字**——通过 `<img>` 加载的 SVG **无法加载网页字体**，`<text>` 会退回系统字体，在各人机器上长得都不一样。所以组件内部只有几何图形，标签放在 README 里由 GitHub 正常排版。
+
+## 附带说明
+
+`NEON` 用了 `feGaussianBlur`。即使某些渲染环境把滤镜丢掉，底下那层 2.5px 实线依然成立，不会变成没有边框。
