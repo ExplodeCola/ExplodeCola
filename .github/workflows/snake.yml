@@ -1,33 +1,38 @@
 name: Generate Combo Meter
 
+# 只在定时和手动触发时运行。
+# 故意不监听 push：这个 workflow 自己会往 main 提交，
+# 若监听 push 就会和自己的提交形成无限循环。
 on:
   schedule:
     # 每 12 小时刷新一次
     - cron: "0 */12 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
+
+permissions:
+  contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: Generate snake
+      - uses: actions/checkout@v4
+
+      # 直接写进 assets/，和 README 里的相对路径 assets/snake.svg 对应。
+      # 不用 output 分支：那种写法要引用 raw.githubusercontent.com，
+      # 而该域名在国内网络常被 SNI 阻断，图会加载不出来。
+      - name: Generate snake into assets/
         uses: Platane/snk@v3
-        id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?color_snake=#ff2e88&color_dots=#0b0f1e,#1e2a4a,#8b5cf6,#00e5ff,#ffd93d
-            dist/snake-dark.svg?palette=github-dark&color_snake=#ff2e88&color_dots=#05070f,#1e2a4a,#8b5cf6,#00e5ff,#ffd93d
+            assets/snake.svg?color_snake=#ff2e88&color_dots=#0b0f1e,#1e2a4a,#8b5cf6,#00e5ff,#ffd93d
+            assets/snake-dark.svg?palette=github-dark&color_snake=#ff2e88&color_dots=#05070f,#1e2a4a,#8b5cf6,#00e5ff,#ffd93d
 
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/snake.svg assets/snake-dark.svg
+          git diff --staged --quiet || git commit -m "chore: update combo meter"
+          git push

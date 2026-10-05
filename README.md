@@ -50,12 +50,16 @@ status:    "compiling..."
 ### `▸ HIGH SCORES`
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ExplodeCola&show_icons=true&include_all_commits=true&count_private=true&bg_color=0b0f1e&title_color=ff2e88&text_color=00e5ff&icon_color=ffd93d&border_color=1e2a4a&hide_border=false" alt="stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ExplodeCola&layout=compact&langs_count=8&bg_color=0b0f1e&title_color=ff2e88&text_color=00e5ff&border_color=1e2a4a&hide_border=false" alt="top langs">
+  <img width="100%" src="https://ghchart.rshah.org/ff2e88/ExplodeCola" alt="contribution chart">
 </div>
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=ExplodeCola&background=0b0f1e&border=1e2a4a&stroke=1e2a4a&ring=ff2e88&fire=ffd93d&currStreakNum=00e5ff&sideNums=00e5ff&currStreakLabel=ff2e88&sideLabels=ff2e88&dates=8b9bb4" alt="streak">
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/github/followers/ExplodeCola?style=for-the-badge&color=00e5ff&labelColor=0b0f1e&label=FOLLOWERS" alt="followers">
+  <img src="https://img.shields.io/github/last-commit/ExplodeCola/ExplodeCola?style=for-the-badge&color=39ff14&labelColor=0b0f1e&label=LAST+COMMIT" alt="last commit">
 </div>
 
 <img src="assets/divider.svg" width="100%" alt="">
@@ -80,9 +84,9 @@ status:    "compiling..."
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ExplodeCola/ExplodeCola/output/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ExplodeCola/ExplodeCola/output/snake.svg">
-    <img src="https://raw.githubusercontent.com/ExplodeCola/ExplodeCola/output/snake.svg" alt="contribution snake">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/snake.svg">
+    <img src="assets/snake.svg" alt="contribution snake">
   </picture>
 </div>
 
