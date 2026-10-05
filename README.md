@@ -1,110 +1,86 @@
 <div align="center">
-  <img src="assets/hero.svg" width="100%" alt="EXPLODECOLA — 8-BIT ROCK & CODE">
+  <img src="assets/steam/steam-header.jpg" width="100%" alt="ExplodeCola — Steam profile">
+</div>
+
+<!-- ============================ FAVORITE GAME ============================ -->
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/steam/bar-favorite-light.png">
+  <img src="assets/steam/bar-favorite.png" width="100%" alt="Favorite Game">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/steam/panel-favorite-light.png">
+  <img src="assets/steam/panel-favorite.png" width="100%" alt="DARK SOULS III — 440 hours played">
+</picture>
+
+<!-- ========================= ACHIEVEMENT SHOWCASE ======================== -->
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/steam/bar-achievements-light.png">
+  <img src="assets/steam/bar-achievements.png" width="100%" alt="Achievement Showcase">
+</picture>
+
+<div align="center">
+  <img src="assets/steam/award-wholesome.png" width="64" alt="Wholesome award">
+  <br>
+  <sub>This user's profile has been given the <b>Wholesome</b> award</sub>
+</div>
+
+<!-- ============================== GITHUB STATS =========================== -->
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/steam/bar-stats-light.png">
+  <img src="assets/steam/bar-stats.png" width="100%" alt="GitHub Stats">
+</picture>
+
+<div align="center">
+  <img width="100%" src="https://ghchart.rshah.org/66c0f4/ExplodeCola" alt="contribution chart">
 </div>
 
 <div align="center">
-  <img src="assets/btn-8bit.svg" alt="8-BIT">
-  <img src="assets/btn-rock.svg" alt="ROCK">
-  <img src="assets/btn-code.svg" alt="CODE">
-  <img src="assets/btn-retro.svg" alt="RETRO">
+  <img src="https://streak-stats.demolab.com?user=ExplodeCola&background=1b2838&border=2a475e&stroke=2a475e&ring=66c0f4&fire=66c0f4&currStreakNum=c6d4df&sideNums=c6d4df&currStreakLabel=66c0f4&sideLabels=66c0f4&dates=8f98a0" alt="streak">
 </div>
 
-<br>
-
-<div align="center">
-  <a href="https://github.com/ExplodeCola">
-    <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=2800&pause=900&color=FF2E88&center=true&vCenter=true&width=760&height=44&lines=INSERT+COIN+TO+CONTINUE;I+turn+coffee+into+commits;git+push+--force+and+pray;STILL+PLAYING+SIDE+B" alt="typing">
-  </a>
-</div>
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-### `▸ PLAYER 1 — ABOUT`
-
-<!-- ▼▼ 这一段改成你自己的：简介、城市、在做的事 ▼▼ -->
-```yaml
-name:      ExplodeCola
-class:     Code Wizard / Bass Player
-level:     99
-location:  Earth
-hobbies:   [coding, rock, retro games, pixel art]
-status:    "compiling..."
-```
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-### `▸ NOW PLAYING`
-
-<div align="center">
-  <img src="assets/eq.svg" width="88%" alt="equalizer">
-</div>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/ON_REPEAT-Punk_Rock-ff2e88?style=for-the-badge&labelColor=0b0f1e" alt="on repeat">
-  <img src="https://img.shields.io/badge/VOLUME-11-00e5ff?style=for-the-badge&labelColor=0b0f1e" alt="volume 11">
-  <img src="https://img.shields.io/badge/HEADPHONES-ON-ffd93d?style=for-the-badge&labelColor=0b0f1e" alt="headphones on">
-</div>
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-### `▸ HIGH SCORES`
-
-<div align="center">
-  <img width="100%" src="https://ghchart.rshah.org/ff2e88/ExplodeCola" alt="contribution chart">
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=ExplodeCola&background=0b0f1e&border=1e2a4a&stroke=1e2a4a&ring=ff2e88&fire=ffd93d&currStreakNum=00e5ff&sideNums=00e5ff&currStreakLabel=ff2e88&sideLabels=ff2e88&dates=8b9bb4" alt="streak">
-</div>
-
-<div align="center">
-  <img src="https://img.shields.io/github/followers/ExplodeCola?style=for-the-badge&color=00e5ff&labelColor=0b0f1e&label=FOLLOWERS" alt="followers">
-  <img src="https://img.shields.io/github/last-commit/ExplodeCola/ExplodeCola?style=for-the-badge&color=39ff14&labelColor=0b0f1e&label=LAST+COMMIT" alt="last commit">
-</div>
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-### `▸ POWER-UPS`
+<!-- ================================ BADGES =============================== -->
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/steam/bar-badges-light.png">
+  <img src="assets/steam/bar-badges.png" width="100%" alt="Badges">
+</picture>
 
 <!-- ▼▼ 删掉你不用的，或加你自己的 ▼▼ -->
 <div align="center">
-  <img src="https://img.shields.io/badge/JavaScript-ffd93d?style=for-the-badge&logo=javascript&logoColor=0b0f1e&labelColor=0b0f1e" alt="JavaScript">
-  <img src="https://img.shields.io/badge/TypeScript-00e5ff?style=for-the-badge&logo=typescript&logoColor=0b0f1e&labelColor=0b0f1e" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Python-ff2e88?style=for-the-badge&logo=python&logoColor=0b0f1e&labelColor=0b0f1e" alt="Python">
-  <img src="https://img.shields.io/badge/Node.js-39ff14?style=for-the-badge&logo=nodedotjs&logoColor=0b0f1e&labelColor=0b0f1e" alt="Node.js">
-  <img src="https://img.shields.io/badge/React-00e5ff?style=for-the-badge&logo=react&logoColor=0b0f1e&labelColor=0b0f1e" alt="React">
-  <img src="https://img.shields.io/badge/Rust-ffd93d?style=for-the-badge&logo=rust&logoColor=0b0f1e&labelColor=0b0f1e" alt="Rust">
-  <img src="https://img.shields.io/badge/Docker-ff2e88?style=for-the-badge&logo=docker&logoColor=0b0f1e&labelColor=0b0f1e" alt="Docker">
-  <img src="https://img.shields.io/badge/Git-39ff14?style=for-the-badge&logo=git&logoColor=0b0f1e&labelColor=0b0f1e" alt="Git">
+  <img src="https://img.shields.io/badge/JavaScript-c6d4df?style=for-the-badge&logo=javascript&logoColor=1b2838&labelColor=1b2838" alt="JavaScript">
+  <img src="https://img.shields.io/badge/TypeScript-66c0f4?style=for-the-badge&logo=typescript&logoColor=1b2838&labelColor=1b2838" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Python-66c0f4?style=for-the-badge&logo=python&logoColor=1b2838&labelColor=1b2838" alt="Python">
+  <img src="https://img.shields.io/badge/Node.js-c6d4df?style=for-the-badge&logo=nodedotjs&logoColor=1b2838&labelColor=1b2838" alt="Node.js">
+  <img src="https://img.shields.io/badge/React-66c0f4?style=for-the-badge&logo=react&logoColor=1b2838&labelColor=1b2838" alt="React">
+  <img src="https://img.shields.io/badge/Rust-c6d4df?style=for-the-badge&logo=rust&logoColor=1b2838&labelColor=1b2838" alt="Rust">
+  <img src="https://img.shields.io/badge/Docker-66c0f4?style=for-the-badge&logo=docker&logoColor=1b2838&labelColor=1b2838" alt="Docker">
+  <img src="https://img.shields.io/badge/Git-c6d4df?style=for-the-badge&logo=git&logoColor=1b2838&labelColor=1b2838" alt="Git">
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="">
-
-### `▸ COMBO METER`
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/snake.svg">
-    <img src="assets/snake.svg" alt="contribution snake">
-  </picture>
-</div>
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-### `▸ CONNECT`
+<!-- ================================ LINKS ================================ -->
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/steam/bar-links-light.png">
+  <img src="assets/steam/bar-links.png" width="100%" alt="Links">
+</picture>
 
 <!-- ▼▼ 换成你自己的链接 ▼▼ -->
 <div align="center">
-  <a href="https://github.com/ExplodeCola"><img src="https://img.shields.io/badge/GitHub-ExplodeCola-ff2e88?style=for-the-badge&logo=github&logoColor=0b0f1e&labelColor=0b0f1e" alt="GitHub"></a>
-  <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-say_hi-00e5ff?style=for-the-badge&logo=gmail&logoColor=0b0f1e&labelColor=0b0f1e" alt="Email"></a>
-  <img src="https://komarev.com/ghpvc/?username=ExplodeCola&style=for-the-badge&color=ffd93d&label=PLAYERS" alt="visitors">
+  <a href="https://github.com/ExplodeCola"><picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/steam/btn-github-light.png">
+    <img src="assets/steam/btn-github.png" height="46" alt="GitHub">
+  </picture></a>
+  <a href="https://steamcommunity.com/id/ExplodeCola"><picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/steam/btn-steam-light.png">
+    <img src="assets/steam/btn-steam.png" height="46" alt="Steam">
+  </picture></a>
+  <a href="mailto:you@example.com"><picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/steam/btn-email-light.png">
+    <img src="assets/steam/btn-email.png" height="46" alt="Email">
+  </picture></a>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="assets/btn-retro.svg" alt="RETRO">
-  <br><br>
-  <sub><code>© 2026 ExplodeCola — INSERT COIN TO CONTINUE</code></sub>
+  <img src="https://komarev.com/ghpvc/?username=ExplodeCola&style=for-the-badge&color=66c0f4&labelColor=1b2838&label=PROFILE+VIEWS" alt="visitors">
 </div>
